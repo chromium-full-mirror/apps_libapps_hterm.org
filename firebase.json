@@ -1,0 +1,47 @@
+{
+  "hosting": {
+    "public": "htdocs",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/.git/**",
+      "**/node_modules/**",
+      "*.py",
+      "*.sh",
+      "*.log"
+    ],
+    "redirects": [{
+      "source": "/docs",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/doc/",
+      "type": 302
+    }, {
+      "source": "/FAQ",
+      "destination": "/faq",
+      "type": 302
+    }, {
+      "source": "/faq",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/doc/FAQ.md",
+      "type": 302
+    }, {
+      "source": "/x/faq",
+      "destination": "/faq",
+      "type": 302
+    }, {
+      "source": "/x/bugs",
+      "destination": "https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3APlatform>Apps>Default>Hterm",
+      "type": 302
+    }, {
+      "source": "/x/newbug",
+      "destination": "https://bugs.chromium.org/p/chromium/issues/entry?components=Platform>Apps>Default>Hterm",
+      "type": 302
+    }, {
+      "source": "/x/contact",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/#contact",
+      "type": 302
+    }, {
+      "source": "/x/src",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/",
+      "type": 302
+    }]
+  }
+}

@@ -1,0 +1,16 @@
+/* These settings are in sync with hterm defaults. */
+body {
+  color: rgb(240, 240, 240);
+  background-color: rgb(16, 16, 16);
+  font-family: "DejaVu Sans Mono", "Noto Sans Mono", "Everson Mono", FreeMono, Menlo, Terminal, monospace;
+  font-smoothing: antialiased;
+  font-size: 15;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgba(255, 0, 0, 0.5);
+}
