@@ -9,13 +9,16 @@
  */
 
 // The latest hterm release that we default to.
-const latestRelease = '1.84';
+const latestRelease = '1.87';
 // All hterm releases that may be dynamically selected.
 const allReleases = [
   '1.80',
   '1.81',
   '1.82',
   '1.83',
+  '1.84',
+  '1.85',
+  '1.86',
   latestRelease,
 ];
 // The current version loaded.
