@@ -2,23 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-'use strict';
-
 /**
  * @fileoverview The main hterm.org page.
  */
 
 // The latest hterm release that we default to.
-const latestRelease = '1.87';
+const latestRelease = '1.91';
 // All hterm releases that may be dynamically selected.
 const allReleases = [
-  '1.80',
-  '1.81',
-  '1.82',
-  '1.83',
-  '1.84',
-  '1.85',
-  '1.86',
   latestRelease,
 ];
 // The current version loaded.
@@ -152,8 +143,8 @@ function setupHterm() {
 
     // Just enough to provide an example.
     this.contextMenu.setItems([
-      ['Terminal Clear', function() { term.wipeContents(); }],
-      ['Terminal Reset', function() { term.reset(); }],
+      {name: 'Terminal Clear', action: () => term.wipeContents()},
+      {name: 'Terminal Reset', action: () => term.reset()},
     ]);
   };
   term.decorate(document.querySelector('#terminal'));
@@ -168,9 +159,10 @@ function loadVersion(version) {
   const script = document.createElement('script');
   script.type = 'text/javascript';
   script.src = `/dist/${version}/hterm_all.js`;
-  script.onload = function() {
+  script.onload = async function() {
     currentRelease = version;
-    lib.init(setupHterm);
+    await lib.init();
+    setupHterm();
   };
   script.onerror = function() {
     // Fallback to known version if they specified an invalid one.
