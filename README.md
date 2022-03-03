@@ -20,10 +20,11 @@ Here's the pseudo layout (managed via the [firebase.json] config file).
 
 * `/docs`: Redirect to the main set of docs.  Subpaths may be used to redirect
   to specific docs.
-* `/faq`: Stable link to the FAQ.
+* `/faq`: Stable link to the hterm FAQ.
   * `<id>`: Stable links to specific questions.
 * `/x/`: Namespace for stable links.  Once created, these should never be
-  deleted or renamed.
+  deleted or renamed.  Anything directly under this is hterm related.
+  * `ssh/`: Namespace for ssh related links.
 
 ## Source Layout
 

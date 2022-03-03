@@ -15,12 +15,20 @@
       "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/docs/",
       "type": 302
     }, {
+      "source": "/docs/:doc*",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/doc/:doc",
+      "type": 302
+    }, {
       "source": "/FAQ",
       "destination": "/faq",
       "type": 302
     }, {
       "source": "/faq",
       "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/docs/FAQ.md",
+      "type": 302
+    }, {
+      "source": "/x/docs",
+      "destination": "/docs",
       "type": 302
     }, {
       "source": "/x/faq",
@@ -35,12 +43,36 @@
       "destination": "https://bugs.chromium.org/p/chromium/issues/entry?components=Platform>Apps>Default>Hterm",
       "type": 302
     }, {
+      "source": "/x/changelog",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/doc/ChangeLog.md",
+      "type": 302
+    }, {
       "source": "/x/contact",
       "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/#contact",
       "type": 302
     }, {
       "source": "/x/src",
       "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/",
+      "type": 302
+    }, {
+      "source": "/x/ssh",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/",
+      "type": 302
+    }, {
+      "source": "/x/ssh/contact",
+      "destination": "/contact",
+      "type": 302
+    }, {
+      "source": "/x/ssh/docs",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/doc/",
+      "type": 302
+    }, {
+      "source": "/x/ssh/faq",
+      "destination": "/faq",
+      "type": 302
+    }, {
+      "source": "/x/ssh/changelog",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/doc/ChangeLog.md",
       "type": 302
     }]
   }
