@@ -12,7 +12,7 @@
     ],
     "redirects": [{
       "source": "/docs",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/doc/",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/docs/",
       "type": 302
     }, {
       "source": "/FAQ",
@@ -20,7 +20,7 @@
       "type": 302
     }, {
       "source": "/faq",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/doc/FAQ.md",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/docs/FAQ.md",
       "type": 302
     }, {
       "source": "/x/faq",
