@@ -60,7 +60,7 @@
       "type": 302
     }, {
       "source": "/x/ssh/contact",
-      "destination": "/contact",
+      "destination": "/x/contact",
       "type": 302
     }, {
       "source": "/x/ssh/docs",
