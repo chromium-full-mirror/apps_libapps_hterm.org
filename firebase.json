@@ -16,7 +16,7 @@
       "type": 302
     }, {
       "source": "/docs/:doc*",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/doc/:doc",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/docs/:doc",
       "type": 302
     }, {
       "source": "/FAQ",
@@ -44,7 +44,7 @@
       "type": 302
     }, {
       "source": "/x/changelog",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/doc/ChangeLog.md",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/docs/ChangeLog.md",
       "type": 302
     }, {
       "source": "/x/contact",
@@ -64,7 +64,7 @@
       "type": 302
     }, {
       "source": "/x/ssh/docs",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/doc/",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/docs/",
       "type": 302
     }, {
       "source": "/x/ssh/faq",
@@ -72,7 +72,7 @@
       "type": 302
     }, {
       "source": "/x/ssh/changelog",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/doc/ChangeLog.md",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/docs/ChangeLog.md",
       "type": 302
     }]
   }
