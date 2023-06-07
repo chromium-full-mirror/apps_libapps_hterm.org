@@ -12,11 +12,11 @@
     ],
     "redirects": [{
       "source": "/docs",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/docs/",
+      "destination": "/_/hterm/docs/",
       "type": 302
     }, {
       "source": "/docs/:doc*",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/docs/:doc",
+      "destination": "/_/hterm/docs/:doc",
       "type": 302
     }, {
       "source": "/FAQ",
@@ -24,15 +24,35 @@
       "type": 302
     }, {
       "source": "/faq",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/docs/FAQ.md",
+      "destination": "/_/nassh/docs/FAQ.md",
       "type": 302
     }, {
       "source": "/x/docs",
       "destination": "/docs",
       "type": 302
     }, {
+      "source": "/x/docs/keyboard-bindings",
+      "destination": "/_/hterm/docs/KeyboardBindings.md",
+      "type": 302
+    }, {
       "source": "/x/faq",
       "destination": "/faq",
+      "type": 302
+    }, {
+      "source": "/x/faq/notify-sh",
+      "destination": "/_/hterm/etc/hterm-notify.sh",
+      "type": 302
+    }, {
+      "source": "/x/faq/inline-images",
+      "destination": "/_/nassh/docs/FAQ.md#How-do-I-view-images",
+      "type": 302
+    }, {
+      "source": "/x/faq/osc52",
+      "destination": "/_/nassh/docs/FAQ.md#Is-OSC-52-aka-clipboard-operations_supported",
+      "type": 302
+    }, {
+      "source": "/x/faq/reserved-accelerators",
+      "destination": "/_/nassh/docs/FAQ.md#How-do-I-send-Ctrl_W_Ctrl_N-or-Ctrl_T-to-the-terminal",
       "type": 302
     }, {
       "source": "/x/bugs",
@@ -44,11 +64,11 @@
       "type": 302
     }, {
       "source": "/x/changelog",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/docs/ChangeLog.md",
+      "destination": "/_/hterm/docs/ChangeLog.md",
       "type": 302
     }, {
       "source": "/x/contact",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/#contact",
+      "destination": "/_/hterm/README.md#contact",
       "type": 302
     }, {
       "source": "/x/src",
@@ -59,20 +79,48 @@
       "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/",
       "type": 302
     }, {
+      "source": "/x/ssh/changelog",
+      "destination": "/_/nassh/docs/ChangeLog.md",
+      "type": 302
+    }, {
       "source": "/x/ssh/contact",
-      "destination": "/x/contact",
+      "destination": "/_/nassh/README.md#contact",
       "type": 302
     }, {
       "source": "/x/ssh/docs",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/docs/",
+      "destination": "/_/nassh/docs/",
+      "type": 302
+    }, {
+      "source": "/x/ssh/docs/hwkey",
+      "destination": "/_/nassh/docs/hardware-keys.md",
       "type": 302
     }, {
       "source": "/x/ssh/faq",
-      "destination": "/faq",
+      "destination": "/_/nassh/docs/FAQ.md",
       "type": 302
     }, {
-      "source": "/x/ssh/changelog",
-      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/docs/ChangeLog.md",
+      "source": "/x/ssh/faq/bookmarks",
+      "destination": "/_/nassh/docs/FAQ.md#Can-I-create-bookmarks-to-specific-sites",
+      "type": 302
+    }, {
+      "source": "/x/ssh/faq/omnibox",
+      "destination": "/_/nassh/docs/FAQ.md#Can-I-connect-to-systems-from-the-omnibox",
+      "type": 302
+    }, {
+      "source": "/x/ssh/newbug",
+      "destination": "/x/newbug",
+      "type": 302
+    }, {
+      "source": "/_/libapps/:proj*",
+      "destination": "https://chromium.googlesource.com/apps/libapps/+/HEAD/:proj",
+      "type": 302
+    }, {
+      "source": "/_/hterm/:sub*",
+      "destination": "/_/libapps/hterm/:sub",
+      "type": 302
+    }, {
+      "source": "/_/nassh/:sub*",
+      "destination": "/_/libapps/nassh/:sub",
       "type": 302
     }]
   }

@@ -25,6 +25,9 @@ Here's the pseudo layout (managed via the [firebase.json] config file).
 * `/x/`: Namespace for stable links.  Once created, these should never be
   deleted or renamed.  Anything directly under this is hterm related.
   * `ssh/`: Namespace for ssh related links.
+* `/_/`: Internal namespace for reducing URL base duplication.  Would be nice
+  to avoid exposing externally, but Firebase doesn't seem to support internal
+  rewrites, or variables in the config file.
 
 ## Source Layout
 
