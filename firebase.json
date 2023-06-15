@@ -56,11 +56,11 @@
       "type": 302
     }, {
       "source": "/x/bugs",
-      "destination": "https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3APlatform>Apps>Default>Hterm",
+      "destination": "https://issuetracker.google.com/issues?q=status:open%20componentid:1262883%2B",
       "type": 302
     }, {
       "source": "/x/newbug",
-      "destination": "https://bugs.chromium.org/p/chromium/issues/entry?components=Platform>Apps>Default>Hterm",
+      "destination": "https://issuetracker.google.com/issues/new?component=1262883",
       "type": 302
     }, {
       "source": "/x/changelog",
