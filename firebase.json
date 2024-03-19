@@ -56,7 +56,7 @@
       "type": 302
     }, {
       "source": "/x/bugs",
-      "destination": "https://issuetracker.google.com/issues?q=status%3Aopen componentid%3A1262883",
+      "destination": "https://issuetracker.google.com/issues?q=status%3Aopen componentid%3A1262883%2B",
       "type": 302
     }, {
       "source": "/x/newbug",
