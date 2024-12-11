@@ -35,6 +35,10 @@
       "destination": "/_/hterm/docs/KeyboardBindings.md",
       "type": 302
     }, {
+      "source": "/x/example/bg-img",
+      "destination": "https://www.google.com/earth/images/hubble_crab_neb-lg.jpg",
+      "type": 302
+    }, {
       "source": "/x/faq",
       "destination": "/faq",
       "type": 302
@@ -85,6 +89,14 @@
     }, {
       "source": "/x/ssh/contact",
       "destination": "/_/nassh/README.md#contact",
+      "type": 302
+    }, {
+      "source": "/x/ssh/cws",
+      "destination": "https://chromewebstore.google.com/detail/iodihamcpbpeioajjeobimgagajmlibd",
+      "type": 302
+    }, {
+      "source": "/x/ssh/cws/dev",
+      "destination": "https://chromewebstore.google.com/detail/algkcnfjnajfhgimadimbjhmpaeohhln",
       "type": 302
     }, {
       "source": "/x/ssh/docs",
